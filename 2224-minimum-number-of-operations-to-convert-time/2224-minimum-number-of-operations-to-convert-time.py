@@ -10,8 +10,8 @@ class Solution:
                 mts += (hr-1) * 60
             mts += (60- int(old[1])) + int(new[1])
         
-        res, dirs = 0, [60, 15, 5, 1]
-        for i in dirs:
+        res = 0
+        for i in [60, 15, 5, 1]:
             res += mts//i    
             mts %= i            
         return res
