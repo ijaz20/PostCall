@@ -13,7 +13,7 @@ class Solution {
                ans=(ans+mod)%mod;
            }
        }
-        return (int)(ans%1000000007);
+        return (int)(ans%mod);
     }
     int dir[][]={{-1,0},{1,0},{0,1},{0,-1}};
      long find(int i,int j,int grid[][]){
