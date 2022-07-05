@@ -8,9 +8,7 @@ class Solution {
         long ans=0;
        for(int i=0;i<n;i++){
            for(int j=0;j<m;j++){
-
                ans=(ans+find(i,j,grid))%mod;
-               // ans=(ans+mod)%mod;
            }
        }
         return (int)(ans%mod);
