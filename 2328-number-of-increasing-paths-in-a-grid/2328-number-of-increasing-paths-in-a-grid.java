@@ -27,7 +27,6 @@ class Solution {
 
             ans=(ans+find(i1,j1,grid))%mod;
         }
-        ans=(ans+mod)%mod;
         return dp[i][j]=(ans);
     }
 }
