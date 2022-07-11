@@ -7,7 +7,5 @@ class Solution:
             res.append(words[i])
             while i<n and running == ''.join(sorted(words[i])):
                 i+=1
-            else:
-                continue;
             
         return res
